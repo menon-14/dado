@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+
+/* Estilos Globais */
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #1a1a2e; /* Fundo escuro */
+    color: #e94560; /* Texto vibrante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container Principal */
+.container {
+    text-align: center;
+    background-color: #0f3460; /* Fundo do container */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 450px;
+    width: 90%;
+    border: 3px solid #16213e;
+}
+
+h1 {
+    color: #ffd400; /* Amarelo ouro */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.instrucoes {
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+    color: #e07b8b;
+}
+
+/* Resultados dos Dados */
+.resultado-container p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.dado-valor {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    min-width: 30px;
+}
+
+.soma {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #16213e;
+    color: #1abc9c; /* Verde */
+}
+
+/* Pontuação Total */
+.pontuacao-total {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #16213e;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Botão de Lançar */
+.btn {
+    padding: 15px 30px;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: background-color 0.2s, transform 0.1s;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #c73752;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Feedback de Vitória/Derrota */
+.feedback-msg {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}

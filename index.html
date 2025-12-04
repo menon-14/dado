@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Dados Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Dados (Roll Dice)</h1>
+        
+        <p class="instrucoes">Clique em Lançar para rolar dois dados. O objetivo é alcançar 30 pontos!</p>
+
+        <div class="resultado-container">
+            <p>Dado 1: <span id="dado1" class="dado-valor">0</span></p>
+            <p>Dado 2: <span id="dado2" class="dado-valor">0</span></p>
+            <p class="soma">Soma: <span id="soma-dados">0</span></p>
+        </div>
+
+        <div class="pontuacao-total">
+            Pontuação Total: <span id="pontuacao-atual">0</span> / 30
+        </div>
+        
+        <button id="lancar-btn" class="btn">🎲 Lançar os Dados</button>
+        
+        <p id="feedback" class="feedback-msg"></p>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
